@@ -1,0 +1,281 @@
+{
+  "category": [
+    {
+        "id": 1,
+        "name": "Sofás",
+        "description": "Encontre o sofá confortável que faltava na sua sala! Deixe seu ambiente ainda mais bonito!",
+        "url": "sofas",
+        "image": "https://staticmobly.akamaized.net/cms/marketing/mobly4/img-saladeestar-sofas.jpg",
+        "products": [
+            {
+                "id": 1,
+                "name":"Sofá 3 Lugares Retrátil Fluence Suede Capuccino",
+                "description": "",
+                "price": "1699.00",
+                "status": "maketable",
+                "image": "https://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Fluence-Suede-Capuccino-1648-515791-1-zoom.jpg"
+            },
+            {
+                "id": 2,
+                "name":"Sofá 3 Lugares Retrátil e Reclinável Eureka Suede Capuccino",
+                "description": "Sofá 3 Lugares Retrátil e Reclinável Eureka Suede Capuccino",
+                "price": "1049.99",
+                "status": "promotion",
+                "image": "https://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-e-ReclinC3A1vel-Eureka-Suede-Capuccino-9983-468441-1-zoom.jpg"
+            },
+            {
+                "id": 3,
+                "name":"Sofá 3 Lugares Retrátil Kennedy Suede Preto",
+                "description": "Sofá 3 Lugares Retrátil Kennedy Suede Preto",
+                "price": "866.99",
+                "status": "maketable",
+                "image": "https://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-e-ReclinC3A1vel-Eureka-Suede-Capuccino-9983-468441-1-zoom.jpghttps://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Kennedy-Suede-Preto-6018-709083-1-zoom.jpg"
+            },
+            {
+                "id": 4,
+                "name":"Sofá 3 Lugares Larissa Suede Cinza",
+                "description": "Sofá 3 Lugares Larissa Suede Cinza",
+                "price": "866.99",
+                "status": "promotion",
+                "image": "https://staticmobly.akamaized.net/r/222x222/p/LinoForte-SofC3A1-3-Lugares-Larissa-Suede-Cinza-8810-881511-1-zoom.jpg"
+            },
+            {
+                "id": 5,
+                "name":"Sofá 3 Lugares Retrátil Fluence Suede Capuccino",
+                "description": "",
+                "price": "1699.00",
+                "status": "promotion",
+                "image": "https://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Fluence-Suede-Capuccino-1648-515791-1-zoom.jpg"
+            },
+            {
+                "id": 6,
+                "name":"Sofá 3 Lugares Retrátil e Reclinável Eureka Suede Capuccino",
+                "description": "Sofá 3 Lugares Retrátil e Reclinável Eureka Suede Capuccino",
+                "price": "1049.99",
+                "status": "maketable",
+                "image": "https://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-e-ReclinC3A1vel-Eureka-Suede-Capuccino-9983-468441-1-zoom.jpg"
+            },
+            {
+                "id": 7,
+                "name":"Sofá 3 Lugares Retrátil Kennedy Suede Preto",
+                "description": "Sofá 3 Lugares Retrátil Kennedy Suede Preto",
+                "price": "866.99",
+                "status": "maketable",
+                "image": "https://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-e-ReclinC3A1vel-Eureka-Suede-Capuccino-9983-468441-1-zoom.jpghttps://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Kennedy-Suede-Preto-6018-709083-1-zoom.jpg"
+            },
+            {
+                "id": 8,
+                "name":"Sofá 3 Lugares Larissa Suede Cinza",
+                "description": "Sofá 3 Lugares Larissa Suede Cinza",
+                "price": "866.99",
+                "status": "promotion",
+                "image": "https://staticmobly.akamaized.net/r/222x222/p/LinoForte-SofC3A1-3-Lugares-Larissa-Suede-Cinza-8810-881511-1-zoom.jpg"
+            },
+            {
+                "id": 9,
+                "name":"Sofá 3 Lugares Retrátil Fluence Suede Capuccino",
+                "description": "",
+                "price": "1699.00",
+                "status": "maketable",
+                "image": "https://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Fluence-Suede-Capuccino-1648-515791-1-zoom.jpg"
+            },
+            {
+                "id": 10,
+                "name":"Sofá 3 Lugares Retrátil e Reclinável Eureka Suede Capuccino",
+                "description": "Sofá 3 Lugares Retrátil e Reclinável Eureka Suede Capuccino",
+                "price": "1049.99",
+                "status": "promotion",
+                "image": "https://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-e-ReclinC3A1vel-Eureka-Suede-Capuccino-9983-468441-1-zoom.jpg"
+            },
+            {
+                "id": 11,
+                "name":"Sofá 3 Lugares Retrátil Kennedy Suede Preto",
+                "description": "Sofá 3 Lugares Retrátil Kennedy Suede Preto",
+                "price": "866.99",
+                "status": "maketable",
+                "image": "https://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-e-ReclinC3A1vel-Eureka-Suede-Capuccino-9983-468441-1-zoom.jpghttps://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Kennedy-Suede-Preto-6018-709083-1-zoom.jpg"
+            },
+            {
+                "id": 12,
+                "name":"Sofá 3 Lugares Larissa Suede Cinza",
+                "description": "Sofá 3 Lugares Larissa Suede Cinza",
+                "price": "866.99",
+                "status": "maketable",
+                "image": "https://staticmobly.akamaized.net/r/222x222/p/LinoForte-SofC3A1-3-Lugares-Larissa-Suede-Cinza-8810-881511-1-zoom.jpg",
+                "image_preview": "https://staticmobly.akamaized.net/r/222x222/p/LinoForte-SofC3A1-3-Lugares-Larissa-Suede-Cinza-8810-881511-1-zoom.jpg"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Decoração",
+        "description": "A Mobly tem todos os móveis que você precisa para decorar sua casa,  do jeito que você sempre sonhou. Navegue nos banners abaixo e encontre o móvel ideal para cada cantinho da sua casa.",
+        "image": "http://localhost:9000/images/category_decoration.jpg",
+        "friendlyurl": "decoracao"
+    },
+
+    {
+        "id": 3,
+        "name": "Infantil",
+        "description": "Só a Mobly possui móveis, artigos de decoração, acessórios infantis e muito mais. Navegue nos banners abaixo e encontre tudo para seu filho.",
+        "image": "http://localhost:9000/images/category_kids.jpg",
+        "friendlyurl": "infantil"
+    },
+
+    { "id": 4,
+        "name": "Iluminação",
+        "description": "Utilize luminárias, lustres ou abajures para criar um boa iluminação e deixar a sua casa mais confortável",
+        "image": "http://localhost:9000/images/category_spotlight.jpg",
+        "friendlyurl": "iluminacao"
+    },
+
+    {
+        "id": 5,
+        "name": "Utilidades domésticas",
+        "description": "Complete sua casa com acessórios para cozinha, banheiro e lavanderia super importantes que você ainda não possui. Navegue nos banners abaixo e encontre o item ideal para estes cômodos.",
+        "image": "http://localhost:9000/images/category_domesticos.jpg",
+        "friendlyurl": "utilidades-domesticas"
+    },
+
+    {
+        "id": 6,
+        "name": "Jardim e Lazer ",
+        "description": "A Mobly reúne diversos itens de jardim e lazer para você complementar seu ambiente para os momentos de descanso. Navegue nos banners abaixo e encontre tudo que precisa para seu espaço de descontração.",
+        "image": "http://localhost:9000/images/category_jardimelazer.jpg",
+        "friendlyurl": "jardim-lazer"
+    }
+  ],
+  "product": [
+    {
+        "id": 1,
+        "name":"Sofá 3 Lugares Retrátil Fluence Suede Capuccino",
+        "description": "Sofá 3 Lugares Retrátil Fluence Suede Capuccino",
+        "price": "1699.00",
+        "status": "promotion",
+        "image": "https://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Fluence-Suede-Capuccino-1648-515791-1-zoom.jpg",
+        "image_preview": "https://staticmobly.akamaized.net/p/Mobly-SofC3A1-2-Lugares-Living-Base-de-Madeira-com-Chaise-Suede-Preto-8602-933705-4-zoom.jpg",
+        "characteristics":[
+            {
+                "name": "Altura",
+                "icon": "fa fa-globe",
+                "value": "76 cm"
+            },
+            {
+                "name": "Largura",
+                "icon": "fa fa-globe",
+                "value": "200 cm"
+            },
+            {
+                "name": "Profundidade",
+                "icon": "fa fa-globe",
+                "value": "82 cm"
+            },
+            {
+                "name": "Peso",
+                "icon": "fa fa-globe",
+                "value": "63,000 kg"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name":"Sofá 3 Lugares Retrátil e Reclinável Eureka Suede Capuccino",
+        "description": "Sofá 3 Lugares Retrátil e Reclinável Eureka Suede Capuccino",
+        "price": "1049.99",
+        "status": "promotion",
+        "image": "https://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-e-ReclinC3A1vel-Eureka-Suede-Capuccino-9983-468441-1-zoom.jpg",
+        "image_preview": "https://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-e-ReclinC3A1vel-Eureka-Suede-Capuccino-9983-468441-1-zoom.jpg"
+    },
+    {
+        "id": 3,
+        "name":"Sofá 3 Lugares Retrátil Kennedy Suede Preto",
+        "description": "Sofá 3 Lugares Retrátil Kennedy Suede Preto",
+        "price": "866.99",
+        "status": "maketable",
+        "image": "https://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-e-ReclinC3A1vel-Eureka-Suede-Capuccino-9983-468441-1-zoom.jpghttps://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Kennedy-Suede-Preto-6018-709083-1-zoom.jpg",
+        "image_preview": "https://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-e-ReclinC3A1vel-Eureka-Suede-Capuccino-9983-468441-1-zoom.jpghttps://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Kennedy-Suede-Preto-6018-709083-1-zoom.jpg"
+    },
+    {
+        "id": 4,
+        "name":"Sofá 3 Lugares Larissa Suede Cinza",
+        "description": "Sofá 3 Lugares Larissa Suede Cinza",
+        "price": "866.99",
+        "status": "promotion",
+        "image": "https://staticmobly.akamaized.net/r/222x222/p/LinoForte-SofC3A1-3-Lugares-Larissa-Suede-Cinza-8810-881511-1-zoom.jpg",
+        "image_preview": "https://staticmobly.akamaized.net/r/222x222/p/LinoForte-SofC3A1-3-Lugares-Larissa-Suede-Cinza-8810-881511-1-zoom.jpg"
+    },
+    {
+        "id": 5,
+        "name":"Sofá 3 Lugares Retrátil Fluence Suede Capuccino",
+        "description": "",
+        "price": "1699.00",
+        "status": "promotion",
+        "image": "https://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Fluence-Suede-Capuccino-1648-515791-1-zoom.jpg",
+        "image_preview": "https://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Fluence-Suede-Capuccino-1648-515791-1-zoom.jpg"
+    },
+    {
+        "id": 6,
+        "name":"Sofá 3 Lugares Retrátil e Reclinável Eureka Suede Capuccino",
+        "description": "Sofá 3 Lugares Retrátil e Reclinável Eureka Suede Capuccino",
+        "price": "1049.99",
+        "status": "maketable",
+        "image": "https://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-e-ReclinC3A1vel-Eureka-Suede-Capuccino-9983-468441-1-zoom.jpg",
+        "image_preview": "https://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-e-ReclinC3A1vel-Eureka-Suede-Capuccino-9983-468441-1-zoom.jpg"
+    },
+    {
+        "id": 7,
+        "name":"Sofá 3 Lugares Retrátil Kennedy Suede Preto",
+        "description": "Sofá 3 Lugares Retrátil Kennedy Suede Preto",
+        "price": "866.99",
+        "status": "maketable",
+        "image": "https://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-e-ReclinC3A1vel-Eureka-Suede-Capuccino-9983-468441-1-zoom.jpghttps://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Kennedy-Suede-Preto-6018-709083-1-zoom.jpg",
+        "image_preview": "https://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-e-ReclinC3A1vel-Eureka-Suede-Capuccino-9983-468441-1-zoom.jpghttps://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Kennedy-Suede-Preto-6018-709083-1-zoom.jpg"
+    },
+    {
+        "id": 8,
+        "name":"Sofá 3 Lugares Larissa Suede Cinza",
+        "description": "Sofá 3 Lugares Larissa Suede Cinza",
+        "price": "866.99",
+        "status": "promotion",
+        "image": "https://staticmobly.akamaized.net/r/222x222/p/LinoForte-SofC3A1-3-Lugares-Larissa-Suede-Cinza-8810-881511-1-zoom.jpg",
+        "image_preview": "https://staticmobly.akamaized.net/r/222x222/p/LinoForte-SofC3A1-3-Lugares-Larissa-Suede-Cinza-8810-881511-1-zoom.jpg"
+    },
+    {
+        "id": 9,
+        "name":"Sofá 3 Lugares Retrátil Fluence Suede Capuccino",
+        "description": "",
+        "price": "1699.00",
+        "status": "maketable",
+        "image": "https://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Fluence-Suede-Capuccino-1648-515791-1-zoom.jpg",
+        "image_preview": "https://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Fluence-Suede-Capuccino-1648-515791-1-zoom.jpg"
+    },
+    {
+        "id": 10,
+        "name":"Sofá 3 Lugares Retrátil e Reclinável Eureka Suede Capuccino",
+        "description": "Sofá 3 Lugares Retrátil e Reclinável Eureka Suede Capuccino",
+        "price": "1049.99",
+        "status": "promotion",
+        "image": "https://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-e-ReclinC3A1vel-Eureka-Suede-Capuccino-9983-468441-1-zoom.jpg",
+        "image_preview": "https://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-e-ReclinC3A1vel-Eureka-Suede-Capuccino-9983-468441-1-zoom.jpg"
+    },
+    {
+        "id": 11,
+        "name":"Sofá 3 Lugares Retrátil Kennedy Suede Preto",
+        "description": "Sofá 3 Lugares Retrátil Kennedy Suede Preto",
+        "price": "866.99",
+        "status": "maketable",
+        "image": "https://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-e-ReclinC3A1vel-Eureka-Suede-Capuccino-9983-468441-1-zoom.jpghttps://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Kennedy-Suede-Preto-6018-709083-1-zoom.jpg",
+        "image_preview": "https://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-e-ReclinC3A1vel-Eureka-Suede-Capuccino-9983-468441-1-zoom.jpghttps://staticmobly.akamaized.net/r/222x222/p/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Kennedy-Suede-Preto-6018-709083-1-zoom.jpg"
+    },
+    {
+        "id": 12,
+        "name":"Sofá 3 Lugares Larissa Suede Cinza",
+        "description": "Sofá 3 Lugares Larissa Suede Cinza",
+        "price": "866.99",
+        "status": "maketable",
+        "image": "https://staticmobly.akamaized.net/r/222x222/p/LinoForte-SofC3A1-3-Lugares-Larissa-Suede-Cinza-8810-881511-1-zoom.jpg",
+        "image_preview": "https://staticmobly.akamaized.net/r/222x222/p/LinoForte-SofC3A1-3-Lugares-Larissa-Suede-Cinza-8810-881511-1-zoom.jpg"
+    }
+  ],
+  "profile": { "name": "typicode" }
+}

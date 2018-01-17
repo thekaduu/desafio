@@ -1,0 +1,48 @@
+@import "./variables.scss";
+.header-content {
+    padding: 20px 0;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    .logo {
+        height: 26px;
+        margin-top: 10px;
+    }
+    .input-search {
+        height: 49px;
+        font-style: italic;
+    }
+
+    .menu-item {
+        text-decoration: none;
+        color: $primary-color;
+        &:hover{
+            background: $primary-color !important;
+            text-decoration: none;
+        }
+        &:visited{
+            background: $primary-color !important;
+            text-decoration: none;
+        }
+        &:focus{
+            background: $primary-color !important;
+            text-decoration: none;
+        }
+        &:active{
+            background: $primary-color !important;
+            text-decoration: none;
+        }
+        &:focus{
+            background: $primary-color !important;
+            text-decoration: none;
+        }
+        i {
+            display: block;
+            font-size: 18pt;
+        }
+        p {
+            margin-top: 8px;
+            margin-bottom: 0px;
+            color: $text-color;
+        }
+    }
+}
