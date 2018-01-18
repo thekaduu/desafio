@@ -1,0 +1,48 @@
+<div class="container">
+    <h3 class="title-orange">Meu carrinho</h3>
+    <div ng-if="(cart.itemsInCart.orderItem.length > 0)">
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 full-cart">
+                <div class="item-cart" ng-repeat="item in cart.itemsInCart.orderItem" style="margin-top: 10px">
+                    <div class="col-sm-2" style="width:117px;">
+                        <img ng-src="{{item.image}}" class="item-cart-image" alt="">
+                    </div>
+                    <div class="col-sm-4">
+                        <p><strong>{{item.name}}</strong></p>
+                        <p class="item-description">{{item.description | limitTo: 198 }} {{item.description.length > 198 ? '...' : ''}}</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="row" style="margin-top: 40px">
+                            <div class="col-sm-4" style="font-size: 12pt">
+                                <strong>Qtd: <u>{{item.amount}}</u></strong>
+                            </div>
+                            <div class="col-sm-5" style="font-size: 12pt">
+                                <strong>Total: {{(item.price * item.amount) | currency:"R$ "}}</strong>
+                            </div>
+                            <div class="col-sm-3 text-right item-remove">
+                                <i style="cursor:pointer" title="Excluir pedido do carrinho" class="fa fa-trash" ng-click="cart.removeItem($index)" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-10 col-sm-offset-1 cart-default-bar">
+            <div class="row">
+                <div class="total-sale col-sm-2 col-sm-offset-7">
+                    <p class="total-title">TOTAL A PAGAR</p>
+                    <p class="total-price">{{cart.cartService.totalPrice() | currency:"R$ "}}</p>
+                </div>
+                <div class="col-sm-2">
+                    <button type="button" class="btn btn-success" style="margin-top: 5px" ng-click="product.addCart()">Finalizar Compra</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div ng-if="(cart.itemsInCart.orderItem.length == 0)" style="padding: 50px"class="text-center">
+        <h3>Seu carrinho está vazio!   :(</h3>
+        <a href="#!">Clique aqui</a> e retorne ao catálogo
+
+    </div>
+    </div>
+</div>

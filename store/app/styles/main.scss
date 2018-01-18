@@ -11,10 +11,11 @@
 
 .content {
     margin-top: 20px;
+    position: relative;
 }
 
 footer {
-    background: #e1e6e1;
+    background: $footer-background-color;
     color:#282d3c;
     padding: 20px 0px;
     margin-top: 100px;
@@ -71,11 +72,13 @@ footer {
     height: 360px;
     cursor: pointer;
     margin-top: 15px;
-    position: relative
+    position: relative;
+
     &:focus{
         text-decoration: none;
         color: inherit;
     }
+
     &:visited{
         text-decoration: none;
         color: inherit;
@@ -142,4 +145,72 @@ footer {
 }
 .characteristic-icon{
     margin-right: 20px;
+}
+
+.title {
+    font-size: 22px;
+    color: #5f23a8;
+}
+.cart-default-bar{
+    background: $footer-background-color;
+    height: 60px;
+    margin-top: 20px;
+    position: relative;
+}
+.total-title {
+    font-size: 8pt;
+    font-weight: bolder;
+}
+.total-sale {
+    height: 100%;
+    text-align: center;
+    padding: 6px;
+}
+.total-price {
+    font-size: 14pt;
+    color: $primary-color;
+    font-weight: bolder;
+}
+.full-cart {
+    margin-top: 40px;
+    .item-cart {
+        border: 3px solid #ddd;
+        padding: 8px;
+        height: 140px;
+    }
+}
+
+.item-cart-image {
+    height: 108px;
+}
+.item-description {
+    font-size: 8pt;
+    color: #8b8c8b;
+}
+.item-remove {
+    font-size: 14pt;
+    font-weight: bolder;
+}
+
+.title-orange {
+    font-weight: bold;
+    color: #ff4600;
+    font-size: 24px;
+}
+
+a {
+    color: $primary-color;
+    text-decoration: none;
+    &:hover{
+        color: $primary-color;
+        text-decoration: none;
+    }
+    &:visited{
+        color: $primary-color;
+        text-decoration: none;
+    }
+    &:active{
+        color: $primary-color;
+        text-decoration: none;
+    }
 }

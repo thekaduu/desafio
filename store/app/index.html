@@ -1,20 +1,24 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title></title>
+		<title>Loja de Móveis - Desafio Mobly</title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" href="styles/main.css">
 		<script src="scripts/angular.min.js"></script>
+		<script src="scripts/resources.js"></script>
+		<script src="scripts/services.js"></script>
+		<script src="scripts/ui-bootstrap-tpls.js"></script>
 		<script src="scripts/app.js"></script>
-
+		<link rel="icon" href="https://static.mobly.com.br/images/mobly4/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="https://static.mobly.com.br/images/mobly4/favicon.ico" type="image/x-icon" />
 	</head>
 	<body ng-app="storeApp">
-		<div class="header-content" ng-controller="headerCtrl as ctrl">
+		<div class="header-content" ng-controller="MenuController as ctrl">
 			<div class="container hidden-xs">
 				<div class="col-sm-2">
 					<a href="#!">
-						<img src="images/logo.svg" alt="logo" class="logo">
+						<img src="images/logo.svg" alt="Mobly | Sua loja de móveis e artigos de decoração" title="Mobly | Sua loja de móveis e artigos de decoração" class="logo">
 					</a>
 				</div>
 
@@ -35,9 +39,9 @@
 								</div>
 							</div>
 						<div class="col-sm-2">
-							<a href="#!cart" class="btn btn-primary pull-right">
+							<a href="#!cart" title="Carinho de compra" class="btn btn-primary pull-right">
 								<i class="glyphicon glyphicon-shopping-cart"></i>
-								{{ctrl.orderItems.length}}
+								{{ctrl.totalItemInCart.totalAmount}}
 							</a>
 						</div>
 					</div>
@@ -45,7 +49,7 @@
 			</div>
 		</div>
 
-		<div class="container content">
+		<div class="content">
 				<div ng-view=""></div>
 			</div>
 
@@ -55,30 +59,22 @@
 			<div class="container">
 				<div class="col-sm-4">
 						<p class="title">Trabalhe conosco</p>
-						<p>
-							A Mobly é o maior e-commerce de móveis e objetos de decoração do Brasil e faz parte do grupo Rocket Internet, um dos mais fortes em empreendedorismo no mundo.
-						</p>
+						<p>A Mobly é o maior e-commerce de móveis e objetos de decoração do Brasil e faz parte do grupo Rocket Internet, um dos mais fortes em empreendedorismo no mundo.</p>
 				</div>
 
 				<div class="col-sm-4">
 						<p class="title">Imprensa</p>
-						<p>
-							Fique por dentro do que acontece no maior e-commerce de móveis e objetos de decoração do Brasil. contato: imprensa@mobly.com.br
-						</p>
+						<p>Fique por dentro do que acontece no maior e-commerce de móveis e objetos de decoração do Brasil. contato: imprensa@mobly.com.br</p>
 				</div>
 
 				<div class="col-sm-4">
 						<p class="title">Programa de afiliados</p>
-						<p>
-							Ganhe dinheiro divulgando a Mobly! Torne-se um afiliado e aproveite nossas condições especiais.
-						</p>
+						<p>Ganhe dinheiro divulgando a Mobly! Torne-se um afiliado e aproveite nossas condições especiais.</p>
 				</div>
 				<div class="col-sm-12 developer">
 					<p class="text-center">Desenvolvido por Carlos Eduardo Lima Braz |
 						<a href="https://github.com/thekaduu"> <i class="fa fa-github" aria-hidden="true"></i> Github</a> |
 						<a href="https://www.linkedin.com/in/carlos-eduardo-lima-braz-2211394b/"> <i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a>
-
-
 					</p>
 				</div>
 			</div>
@@ -87,9 +83,8 @@
 		<script src="scripts/controllers/HomeController.js"></script>
 		<script src="scripts/controllers/CategoryController.js"></script>
 		<script src="scripts/controllers/ProductController.js"></script>
-		<script src="scripts/resources/Category.js"></script>
-		<script src="scripts/resources/Product.js"></script>
-		<script src="scripts/controllers/main.js"></script>
+		<script src="scripts/controllers/CartController.js"></script>
+		<script src="scripts/controllers/MenuController.js"></script>
 		<script src="scripts/controllers/about.js"></script>
 	</body>
 </html>

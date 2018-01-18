@@ -7,6 +7,7 @@
  * Controller of the storeApp
  */
 angular.module('storeApp')
-  .controller('headerCtrl', function () {
+  .controller('MenuController', ["$rootScope","cartService", function ($rootScope, cartService) {
     this.orderItems = [];
-  });
+    this.totalItemInCart = cartService.all();
+  }]);

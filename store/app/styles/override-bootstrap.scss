@@ -58,7 +58,7 @@
     }
 }
 
-input[type='text'] {
+.form-control {
     &:focus {
         border-color: #ddd;
         outline: 0;

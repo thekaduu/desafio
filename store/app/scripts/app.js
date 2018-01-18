@@ -17,7 +17,10 @@ var app = angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'moblyResources',
+    'moblyServices',
+    'ui.bootstrap'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -26,10 +29,10 @@ var app = angular
         controller: 'HomeController',
         controllerAs: 'home'
       })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl',
-        controllerAs: 'about'
+      .when('/cart', {
+        templateUrl: 'views/cart.html',
+        controller: 'CartController',
+        controllerAs: 'cart'
       })
       .when('/category/:categoryId', {
         templateUrl: 'views/category.html',
