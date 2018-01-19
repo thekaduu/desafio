@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+    moblydb:
+        image: mysql:5.7
+        container_name: moblydb
+        volumes:
+            - db_dataa:/var/lib/mysql
+        restart: always
+        environment:
+            MYSQL_ROOT_PASSWORD: mobly
+            MYSQL_DATABASE: mobly
+            MYSQL_USER: mobly
+            MYSQL_PASSWORD: mobly
+        ports:
+            - "8989:3306"
+volumes:
+    db_dataa:
