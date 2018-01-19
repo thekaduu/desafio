@@ -14,5 +14,11 @@ services:
             MYSQL_PASSWORD: mobly
         ports:
             - "8989:3306"
+    rediscache:
+        image: redis
+        container_name: cache-redis
+        restart: always
+        ports:
+            - "6379:6379"
 volumes:
     db_dataa:
